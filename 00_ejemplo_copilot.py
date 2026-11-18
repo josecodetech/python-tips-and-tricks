@@ -14,7 +14,7 @@ def eliminar_tarea(tarea):
         print(f"✓ Tarea '{tarea}' eliminada exitosamente.")
     else:
         print(f"✗ Error: La tarea '{tarea}' no existe en la lista.")
-
+        
 def ver_tareas():
     """Devuelve la lista de tareas actuales."""
     if tareas:
